@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8">
+</head>
+
+<body >
+
+	<div class="game">
+	    <h1>Blackjack</h1>
+	    <input type="button" class="btn" value="start" onclick="start()" />
+	    <input type="button" class="btn" value="hit" onclick="hit()" />
+	    <input type="button" class="btn" value="stay" onclick="stay()" />
+			 <input type="button" class="btn" value = "reset" onclick="resetGame()" />
+
+	    <div id="players" class="players">
+	    </div>
+			<div id="dealers" class="dealers">
+	    </div>
+
+	    <div id="deck" class="deck">
+	        <div class="card" id="deckcount">52</div>
+	        <div class="status" id="status"></div>
+	    </div>
+
+	    <div class="clear"></div>
+	</div>
+
+ 	<script src = "blackjack.js">
+	</script>
+</body>
+</html>
